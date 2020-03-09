@@ -197,8 +197,8 @@ def reverse_date(date):
     return res_date
 
 
-# Bot = MyBotHandler()
-# Bot.client.call_on_each_message(Bot.get_msg)
+Bot = MyBotHandler()
+Bot.client.call_on_each_message(Bot.get_msg)
 handler_class = MyBotHandler
 
 
